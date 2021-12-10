@@ -1,0 +1,57 @@
+div#contenedor{
+  background-color: #643146;
+  width: 1340px;
+  height: 715px;
+  margin: auto;
+}
+div#atras{
+  background-color: #4D1610;
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#titProm{
+  background-color: #4D1610;
+  width: 1205px;
+  height: 75px;
+  margin: -95px 20px 0px 115px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#promociones{
+  background-color: #F06426;
+  width: 1300px;
+  height: 600px;
+  margin: 20px 20px 20px 20px;
+  display: flex; /*Centra el contenido de la div en fila*/
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+img.promImg{ /*Se modifican los atributos de las imagenes de la clase promImg*/
+  width: 300px;
+  height: 196px;
+  margin: 20px 0px 0px 15px;
+}
+img.promImg:hover{ /*Se modifican los atributos de las imagenes de la clase promImg al pasar el cursor encima*/
+  width: 300px;
+  height: 205px;
+}
+figure{ /*Se modifican los atributos de figure*/
+  margin: 0px;
+}
+figcaption{ /*Se modifican los atributos de figcaption*/
+  margin: 0px 0px 0px 15px;
+}
+h1{ /*Se modifican los atributos de h1*/
+  color: red;
+}
+h3{ /*Se modifican los atributos de h3*/
+  color: red;
+}

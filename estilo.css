@@ -1,0 +1,140 @@
+div#contenedor{
+  background-color: #643146;
+  width: 1340px;
+  height: 795px;
+  margin: auto;
+}
+div#contLogTit{
+  background-color: #4D1610;
+  width: 1300px;
+  height: 150px;
+  margin: 0px 20px 0px 20px;
+}
+div#logo{
+  width: 150px;
+  height: 150px;
+  margin: 0px 0px 0px 60px;
+}
+div#tituloPagina{
+  background-color: #4D1610;
+  width: 350px;
+  height: 75px;
+  margin: -110px 0px 0px 620px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#menuIzq{
+  background-color: black;
+  width: 270px;
+  height: 510px;
+  margin: 20px 0px 20px 20px;
+}
+div#menTit{
+  background-color: #C0392B;
+  width: 270px;
+  height: 83px;
+  margin: 0px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#bebidas{
+  background-color: #F06426;
+  width: 270px;
+  height: 83px;
+  margin: -19px 0px 0px 0px;
+  line-height: 80px; /*Establece distancia entre lineas de texto*/
+
+}
+div#ordenes{
+  background-color: #F06426;
+  width: 270px;
+  height: 83px;
+  margin: -18px 0px 0px 0px;
+  line-height: 80px; /*Establece distancia entre lineas de texto*/
+
+
+}
+div#galeria{
+  background-color: #F06426;
+  width: 270px;
+  height: 83px;
+  margin: -19px 0px 0px 0px;
+  line-height: 80px; /*Establece distancia entre lineas de texto*/
+
+}
+div#promociones{
+  background-color: #F06426;
+  width: 270px;
+  height: 83px;
+  margin: -19px 0px 0px 0px;
+  line-height: 80px; /*Establece distancia entre lineas de texto*/
+
+}
+div#contacto{
+  background-color: #F06426;
+  width: 270px;
+  height: 83px;
+  margin: -19px 0px 0px 0px;
+  line-height: 80px; /*Establece distancia entre lineas de texto*/
+
+}
+div#contProm{
+  background-color: black;
+  width: 1010px;
+  height: 510px;
+  margin: -530px 0px 20px 310px
+}
+div#contPromTit{
+  background-color: #C0392B;
+  width: 970px;
+  height: 83px;
+  margin-top: 20px;
+  margin: 20px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#prom1{
+  background-color: red;
+  width: 475px;
+  height: 387px;
+  margin: 20px 0px 0px 20px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#prom2{
+  background-color: red;
+  width: 475px;
+  height: 387px;
+  margin: -387px 0px 0px 515px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#contInf{
+  background-color: #C0392B;
+  width: 1300px;
+  height: 75px;
+  margin: 20px 0px 0px 20px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+hr{ /*Se modifican los atributos de hr*/
+  border-color: black;
+  margin: 0px;
+}
+h1{ /*Se modifican los atributos de h1*/
+  color: red;
+  font-size: 350%
+}
+h2{ /*Se modifican los atributos de h2*/
+  color: #643146;
+  font-size: 200%
+}
+h3{ /*Se modifican los atributos de h3*/
+  color: black;
+}

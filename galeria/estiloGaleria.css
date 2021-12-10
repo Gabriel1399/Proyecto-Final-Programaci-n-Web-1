@@ -1,0 +1,46 @@
+div#contenedor{
+  background-color: #643146;
+  width: 1340px;
+  height: 765px;
+  margin: auto;
+}
+div#atras{
+  background-color: #4D1610;
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#titGal{
+  background-color: #4D1610;
+  width: 1205px;
+  height: 75px;
+  margin: -95px 20px 0px 115px;
+  display: flex; /*Centra el contenido de la div*/
+  justify-content: center;
+  align-items: center;
+}
+div#galeria{
+  background-color: #F06426;
+  width: 1300px;
+  height: 650px;
+  margin: 20px 20px 20px 20px;
+  display: flex; /*Centra el contenido de la div en forma de fila*/
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+img.galImg{ /*Se modifican los atributos de las imagenes de la clase galImg*/
+  width: 300px;
+  height: 196px;
+  margin: auto;
+}
+h1{ /*Se modifican los atributos de h1*/
+  color: red;
+}
+h3{ /*Se modifican los atributos de h3*/
+  color: red;
+}
